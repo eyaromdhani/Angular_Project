@@ -1,0 +1,18 @@
+.header {
+  background: linear-gradient(135deg, #1e4079 0%, #2b6cb0 100%);
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  font-family: "Times New Roman", serif;
+}
+
+.header h1 {
+  margin: 0 0 6px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.header p {
+  margin: 0;
+  font-size: 14px;
+}

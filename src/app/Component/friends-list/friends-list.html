@@ -1,0 +1,18 @@
+<section class="card green">
+  <div class="icon">👥</div>
+  <div class="content">
+    <h2>Liste des amis</h2>
+
+    <div class="inputs">
+      @for (ami of amis(); track ami.id) {
+        <input type="text" [(ngModel)]="ami.name" placeholder="Ajouter un ami" />
+      }
+    </div>
+
+    <ul>
+      @for (ami of amis(); track ami.id) {
+        <li>{{ ami.name }}</li>
+      }
+    </ul>
+  </div>
+</section>
